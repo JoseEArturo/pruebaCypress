@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1679520272592' stop='1679520280436'>
+    <name>Login Outline</name>
+    <title>Login Outline</title>
+    <test-cases>
+        <test-case start='1679520272621' status='passed' stop='1679520277109'>
+            <name>Login with validate credentials (example #1)</name>
+            <title>Login with validate credentials (example #1)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1679520277109' status='passed' stop='1679520278252'>
+            <name>Login with validate credentials (example #2)</name>
+            <title>Login with validate credentials (example #2)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1679520278252' status='passed' stop='1679520279358'>
+            <name>Login with validate credentials (example #3)</name>
+            <title>Login with validate credentials (example #3)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1679520279360' status='passed' stop='1679520280435'>
+            <name>Login with validate credentials (example #4)</name>
+            <title>Login with validate credentials (example #4)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

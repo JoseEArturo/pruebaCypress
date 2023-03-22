@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1679507207249' stop='1679507214470'>
+    <name>Navigation Bar</name>
+    <title>Navigation Bar</title>
+    <test-cases>
+        <test-case start='1679507207286' status='passed' stop='1679507214469'>
+            <name>Navigate to the Feature Navigation Bar</name>
+            <title>Navigate to the Feature Navigation Bar</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

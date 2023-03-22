@@ -1,0 +1,42 @@
+{
+  "name": "Cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:update:snapshot": "cypress open --env updateSnapshots=true",
+    "variable:entorno": "cypress open --env VARIABLE_DE_ENTORNO=valor",
+    "variable:entorno:sistema": "set NODE_ENV=VARIABLE_DE_DESARROLLO && cypress open",
+    "cucumber:tags": "cypress run --env tags=@probando",
+    "delete:results": "rm -r cypress/results/* || true",
+    "report": "cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json",
+    "mochawesome:report": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json",
+    "junit:reports": "jrm cypress/results/junit/combined-reports.xml \"cypress/results/junit/*.xml\"",
+    "allure:report": "npx cypress run --env allureReuseAfterSpec=true --reporter mocha-allure-reporter && allure serve",
+    "allure:serve": "cypress run --env --reporter mocha-allure-reporter && allure open allure-results",
+    "run:dashboard": "cypress run --record --key 9815d472-f477-4835-bcb5-c36305065d3b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
+    "@cypress/webpack-preprocessor": "^5.17.0",
+    "cypress-cloud": "^1.5.4",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-xpath": "^2.0.1",
+    "junit-report-merger": "^5.0.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.37.0",
+    "cypress": "^10.9.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}

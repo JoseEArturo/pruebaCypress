@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="12" skipped="0">
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:48:28" tests="0" file="cypress\e2e\features\Navigation\navigation.feature" time="0.000" failures="0"/>
+  <testsuite name="Navigation Bar" timestamp="2023-03-21T14:48:29" tests="1" time="6.348" failures="0">
+    <testcase name="Navigation Bar Navigate to the Feature Navigation Bar" time="3.957" classname="Navigate to the Feature Navigation Bar"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:37:12" tests="0" file="cypress\e2e\features\Navigation\navigation.feature" time="0.000" failures="0"/>
+  <testsuite name="Navigation Bar" timestamp="2023-03-21T14:37:12" tests="1" time="6.407" failures="0">
+    <testcase name="Navigation Bar Navigate to the Feature Navigation Bar" time="4.033" classname="Navigate to the Feature Navigation Bar"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:48:15" tests="0" file="cypress\e2e\features\LoginOutline\loginOutline.feature" time="0.000" failures="0"/>
+  <testsuite name="Login Outline" timestamp="2023-03-21T14:48:15" tests="4" time="6.886" failures="0">
+    <testcase name="Login Outline Login with validate credentials (example #1)" time="1.726" classname="Login with validate credentials (example #1)"/>
+    <testcase name="Login Outline Login with validate credentials (example #2)" time="0.974" classname="Login with validate credentials (example #2)"/>
+    <testcase name="Login Outline Login with validate credentials (example #3)" time="0.968" classname="Login with validate credentials (example #3)"/>
+    <testcase name="Login Outline Login with validate credentials (example #4)" time="0.957" classname="Login with validate credentials (example #4)"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:48:41" tests="0" file="cypress\support\step_definitions\Login\login.feature" time="0.000" failures="0"/>
+  <testsuite name="Login" timestamp="2023-03-21T14:48:41" tests="1" time="5.040" failures="0">
+    <testcase name="Login Login with validate credentials" time="2.629" classname="Login with validate credentials"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:37:25" tests="0" file="cypress\support\step_definitions\Login\login.feature" time="0.000" failures="0"/>
+  <testsuite name="Login" timestamp="2023-03-21T14:37:25" tests="1" time="4.999" failures="0">
+    <testcase name="Login Login with validate credentials" time="2.578" classname="Login with validate credentials"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:36:57" tests="0" file="cypress\e2e\features\LoginOutline\loginOutline.feature" time="0.000" failures="0"/>
+  <testsuite name="Login Outline" timestamp="2023-03-21T14:36:57" tests="4" time="7.321" failures="0">
+    <testcase name="Login Outline Login with validate credentials (example #1)" time="1.909" classname="Login with validate credentials (example #1)"/>
+    <testcase name="Login Outline Login with validate credentials (example #2)" time="0.997" classname="Login with validate credentials (example #2)"/>
+    <testcase name="Login Outline Login with validate credentials (example #3)" time="0.973" classname="Login with validate credentials (example #3)"/>
+    <testcase name="Login Outline Login with validate credentials (example #4)" time="0.968" classname="Login with validate credentials (example #4)"/>
+  </testsuite>
+</testsuites>

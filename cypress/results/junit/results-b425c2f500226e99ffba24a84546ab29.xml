@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.420" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-03-21T14:36:57" tests="0" file="cypress\e2e\features\LoginOutline\loginOutline.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login Outline" timestamp="2023-03-21T14:36:57" tests="4" time="7.321" failures="0">
+    <testcase name="Login Outline Login with validate credentials (example #1)" time="1.909" classname="Login with validate credentials (example #1)">
+    </testcase>
+    <testcase name="Login Outline Login with validate credentials (example #2)" time="0.997" classname="Login with validate credentials (example #2)">
+    </testcase>
+    <testcase name="Login Outline Login with validate credentials (example #3)" time="0.973" classname="Login with validate credentials (example #3)">
+    </testcase>
+    <testcase name="Login Outline Login with validate credentials (example #4)" time="0.968" classname="Login with validate credentials (example #4)">
+    </testcase>
+  </testsuite>
+</testsuites>
